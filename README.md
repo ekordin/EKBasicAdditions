@@ -1,0 +1,2 @@
+# EKBasicAdditions
+macOS useful classes
