@@ -26,6 +26,12 @@
 + (NSString*)applicationName;
 - (NSString*)applicationName;
 
+- (NSURL *)documentsDirectoryURL;
+- (NSURL *)cachesDirectoryURL;
+- (NSURL *)downloadsDirectoryURL;
+- (NSURL *)libraryDirectoryURL;
+- (NSURL*)applicationSupportDirectoryURL;
+
 + (NSObject<NSApplicationDelegate>*)applicationDelegate;
 
 - (void)beginSheet:(NSWindow*)sheet modalForWindow:(NSWindow*)modalWindow didEndBlock:(void (^)(NSInteger returnCode))block;

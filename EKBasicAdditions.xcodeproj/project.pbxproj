@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940AF3521FEC302500F8013F /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AF3501FEC302500F8013F /* NSString+Additions.h */; };
+		940AF3531FEC302500F8013F /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AF3511FEC302500F8013F /* NSString+Additions.m */; };
 		94107A501FE1BF330079F68A /* NSApplication+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94107A4E1FE1BF330079F68A /* NSApplication+Additions.h */; };
 		94107A511FE1BF330079F68A /* NSApplication+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94107A4F1FE1BF330079F68A /* NSApplication+Additions.m */; };
 		94A515FB1FE05F5A00B3BFAE /* EKBasicAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A515F91FE05F5A00B3BFAE /* EKBasicAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940AF3501FEC302500F8013F /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		940AF3511FEC302500F8013F /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		94107A4E1FE1BF330079F68A /* NSApplication+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+Additions.h"; sourceTree = "<group>"; };
 		94107A4F1FE1BF330079F68A /* NSApplication+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+Additions.m"; sourceTree = "<group>"; };
 		94A515F61FE05F5A00B3BFAE /* EKBasicAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EKBasicAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,8 @@
 			children = (
 				94107A4E1FE1BF330079F68A /* NSApplication+Additions.h */,
 				94107A4F1FE1BF330079F68A /* NSApplication+Additions.m */,
+				940AF3501FEC302500F8013F /* NSString+Additions.h */,
+				940AF3511FEC302500F8013F /* NSString+Additions.m */,
 				94A515F91FE05F5A00B3BFAE /* EKBasicAdditions.h */,
 				94A515FA1FE05F5A00B3BFAE /* Info.plist */,
 			);
@@ -66,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94107A501FE1BF330079F68A /* NSApplication+Additions.h in Headers */,
+				940AF3521FEC302500F8013F /* NSString+Additions.h in Headers */,
 				94A515FB1FE05F5A00B3BFAE /* EKBasicAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94107A511FE1BF330079F68A /* NSApplication+Additions.m in Sources */,
+				940AF3531FEC302500F8013F /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

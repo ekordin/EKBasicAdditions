@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "NSApplication+Additions.h"
+#import "NSString+Additions.h"
 
 //! Project version number for EKBasicAdditions.
 FOUNDATION_EXPORT double EKBasicAdditionsVersionNumber;

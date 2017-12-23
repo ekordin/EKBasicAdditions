@@ -55,9 +55,34 @@
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleExecutable"];
 }
 
-- (NSString *)applicationName
+- (NSString*)applicationName
 {
     return [[self class] applicationName];
+}
+
+- (NSURL*)documentsDirectoryURL
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (NSURL*)cachesDirectoryURL
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (NSURL*)downloadsDirectoryURL
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDownloadsDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (NSURL*)libraryDirectoryURL
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSLibraryDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (NSURL*)applicationSupportDirectoryURL
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
 + (NSObject<NSApplicationDelegate>*)applicationDelegate
